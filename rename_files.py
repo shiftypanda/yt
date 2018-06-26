@@ -13,6 +13,7 @@
 # import system utilities
 import shutil, os, re
 
+# set global variable for working directory
 DIRECTORY_TO_INDEX = "Scrap Mechanic Multiplayer"
 
 # create a regex that matches filename pattersn wtih file_index and episode_number
@@ -25,21 +26,22 @@ fileIndexPattern = re.compile(r"""^(\d\d) -
 file_index_find = re.compile(r"""^(.*?)
     (\d\d)\s-\s(.*?)Ep(\d\d)(.*?)$
     """, re.VERBOSE)
-# TODO: Loop over the files in the working directory.
+# Loop over the files in the working directory.
 
 for episode in os.listdir(DIRECTORY_TO_INDEX):
     ep = file_index_find.search(episode)
 
-   # TODO: Skip files without a date.
+   # Skip files without episode details.
     if ep == None:
         continue
-   # TODO: Get the different parts of the filename.
+   # Get the different parts of the filename.
     before_part = ep.group(1)
     file_index = ep.group(2)
     middle_part = ep.group(3)
     episode_indicator = "not defined"
     episode_number = ep.group(4)
     end_part = ep.group(5)
+    # commented out below - can be uncommented for debugging
     #print("file index: " + str(file_index), end=" ")
     #print("middle part: " + str(middle_part), end=" ")
     #print("episode_indicator: " + str(episode_indicator), end=" ")
@@ -47,14 +49,14 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
     #print("Files found include " + "file index: " + str(file_index) + "middle part:" + str(middle_part) + "episode" + str(episode_number))
 
 
-   # TODO: Form the European-style filename.
+   # return if correct filename checking first
     if file_index == episode_number:
        print("Already correct", end=" ")
        print("file index: " + str(file_index), end=" ")
        print("matches", end=" ")
        print("episode number: " + str(episode_number), end=" ")
 
-
+    # if non matchin filename then generate correct name and run throughu loop
     elif file_index != episode_number:
         correct_index = episode_number
         correct_index_name = before_part + correct_index + ' - ' + middle_part + 'EP-' + episode_number + end_part
@@ -66,7 +68,3 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
         # Rename the files.
         print('Renaming "%s" to "%s"...' % (episode, correct_index_name))
         shutil.move(episode, correct_index_name)   # uncomment after testing
-
-   # TODO: Get the full, absolute file paths.
-
-   # TODO: Rename the files.
