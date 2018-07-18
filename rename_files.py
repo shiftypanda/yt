@@ -14,7 +14,7 @@
 import shutil, os, re
 
 # set global variable for working directory
-DIRECTORY_TO_INDEX = "Scrap Mechanic Multiplayer"
+DIRECTORY_TO_INDEX = "Stormworks - Build and Rescue Gameplay"
 
 # create a regex that matches filename pattersn wtih file_index and episode_number
 fileIndexPattern = re.compile(r"""^(\d\d) -
@@ -24,7 +24,7 @@ fileIndexPattern = re.compile(r"""^(\d\d) -
     """, re.VERBOSE)
 
 file_index_find = re.compile(r"""^(.*?)
-    (\d\d)\s-\s(.*?)Ep(\d\d)(.*?)$
+    (\d\d)\s-\s(.*?)Ep(\-?\s?\d?\d)(.*?)$
     """, re.VERBOSE)
 # Loop over the files in the working directory.
 
@@ -59,6 +59,8 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
     # if non matchin filename then generate correct name and run throughu loop
     elif file_index != episode_number:
         correct_index = episode_number
+        if int(correct_index) < 10:
+            correct_index = correct_index
         correct_index_name = before_part + correct_index + ' - ' + middle_part + 'EP-' + episode_number + end_part
         # Get the full, absolute file paths.
         absWorkingDir = os.path.abspath(DIRECTORY_TO_INDEX)
@@ -66,5 +68,5 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
         correct_index_name = os.path.join(absWorkingDir, correct_index_name)
         print(end_part)
         # Rename the files.
-        print('Renaming "%s" to "%s"...' % (episode, correct_index_name))
+        print('\n Renaming \n "%s" to: \n"%s"...' % (episode, correct_index_name))
         shutil.move(episode, correct_index_name)   # uncomment after testing

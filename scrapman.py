@@ -22,6 +22,10 @@ youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(
 # NOTE note this type
 https://www.youtube.com/watch?v=o321ZbVOf9o&list=PLjtiR7dM6Lgqn2E8E31iqLXFmzcyR-SWU&index=2
 
-# NOTE use this tyep with playlist 
+# NOTE use this tyep with playlist
 https://www.youtube.com/playlist?list=PLjtiR7dM6Lgqn2E8E31iqLXFmzcyR-SWU
 youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLjtiR7dM6Lgqn2E8E31iqLXFmzcyR-SWU
+
+# Scrapman stormworks playlist
+# https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
