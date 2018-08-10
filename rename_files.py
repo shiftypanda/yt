@@ -14,7 +14,7 @@
 import shutil, os, re
 
 # set global variable for working directory
-DIRECTORY_TO_INDEX = "Stormworks - Build and Rescue Gameplay"
+DIRECTORY_TO_INDEX = "Trailmakers Early Access Gameplay"
 
 # create a regex that matches filename pattersn wtih file_index and episode_number
 fileIndexPattern = re.compile(r"""^(\d\d) -

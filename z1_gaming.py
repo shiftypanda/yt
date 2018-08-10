@@ -18,8 +18,12 @@ https://www.youtube.com/playlist?list=PL8Hr8BU6bPOmF1REREBtnrIMrTJV6sM4M
 
 
 
+Astroneer 7.0
+https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnIcr14MHX5_tuviV7MyuZT
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOmLlNoEFP5OIJXTTLA4fWhl
 
 
 
 
-youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm1cZKAl9GyiLSw2pK8wsXM
+
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3

@@ -21,7 +21,8 @@ $ youtube-dl -o "C:/MyVideos/%(series)s/%(season_number)s - %(season)s/%(episode
 # Stream the video being downloaded to stdout
 $ youtube-dl -o - BaW_jenozKc
 
-
+# Download good general quality -- DEFAULT
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 URL_HERE
 
 # Download best mp4 format available or any other best if no mp4 available
 $ youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
@@ -37,3 +38,8 @@ $ youtube-dl -f '(bestvideo+bestaudio/best)[protocol^=http]'
 
 # Download the best video format and the best audio format without merging them
 $ youtube-dl -f 'bestvideo,bestaudio' -o '%(title)s.f%(format_id)s.%(ext)s'
+
+
+--playlist-start 1 # integer indexed to start at
+
+--playlist-items 1-14  #download range from 1 to 14
