@@ -22,7 +22,7 @@ $ youtube-dl -o "C:/MyVideos/%(series)s/%(season_number)s - %(season)s/%(episode
 $ youtube-dl -o - BaW_jenozKc
 
 # Download good general quality -- DEFAULT
-youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 URL_HERE
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=RESTOFURLHERE
 
 # Download best mp4 format available or any other best if no mp4 available
 $ youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'
