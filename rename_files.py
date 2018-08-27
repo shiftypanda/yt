@@ -14,17 +14,12 @@
 import shutil, os, re
 
 # set global variable for working directory
-DIRECTORY_TO_INDEX = "Trailmakers Early Access Gameplay"
+DIRECTORY_TO_INDEX = "/Volumes/Public/Shared Videos/YouTubers/scrapman/scrap mechanics/Scrap Mechanic Multiplayer"
 
 # create a regex that matches filename pattersn wtih file_index and episode_number
-fileIndexPattern = re.compile(r"""^(\d\d) -
-    (.*?)
-    A(nt|Ep)\s
-    (\d\d)$
-    """, re.VERBOSE)
 
 file_index_find = re.compile(r"""^(.*?)
-    (\d\d)\s-\s(.*?)Ep(\-?\s?\d?\d)(.*?)$
+    (\d?\d?\d?)\s-\s(.*?)Ep(\-?\s?\d\d\d?)(.*?)$
     """, re.VERBOSE)
 # Loop over the files in the working directory.
 
