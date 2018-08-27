@@ -7,4 +7,10 @@ youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(
 # new aquatic adventures - started august 2018
 https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
 
-youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
+
+
+# scrap mechanics - personal playlist
+PUwWycdr4RE&list=PL0hoUWUYryn4bHIjixxXc51O5qozhJX90
+
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4bHIjixxXc51O5qozhJX90
