@@ -3,10 +3,10 @@
 sudo mount -a
 
 # activate python 3.7 virtual env
-source /home/pi/coding/videoscrapers/youtube-dl/virtualenv/bin/activate
+source /home/pi/coding/videoscrapers/virtualenv/bin/activate
 
 # change directory to shared videos for youtubers
-cd /home/pi/videos/Public/Shared\ Videos/Youtubers
+cd /home/pi/videos/Shared\ Videos/Youtubers
 
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=RESTOFURLHERE
@@ -16,9 +16,3 @@ youtube-dl --no-check-certificate -f 18 -o 'camodo\ gaming/%(playlist)s/%(playli
 
 # popular mmos minecraft mods
 youtube-dl --no-check-certificate -f 18 -o 'popularmmos/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL6p1NYDZ87wKTp2iIS0s7BUobisFVzrmW
-
-# deactivate virtualenv
-deactivate
-
-# exit terminal
-exit
