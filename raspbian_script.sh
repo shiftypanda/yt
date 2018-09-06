@@ -19,4 +19,4 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/popularmmos/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL6p1NYDZ87wKTp2iIS0s7BUobisFVzrmW
 
 # iballisitc squid - aquatic adventures
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/iballisitcsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/iballisticsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
