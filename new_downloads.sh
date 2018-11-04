@@ -9,6 +9,9 @@ cd /home/pi/videos/Shared\ Videos/Youtubers
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
+# scrap man - trailmakers
+youtube-dl --no-check-certificate -o '/home/pi/videos/Shared Videos/Youtubers/scrapman/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgp2qrCaaHCTjAmW-vC_IO5T
+
 # z1 gaming - season 9
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
