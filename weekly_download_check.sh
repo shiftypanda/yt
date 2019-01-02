@@ -24,5 +24,11 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 # scrap man - scrap mechanics
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/scrapman/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
-# stampylong nose - detective pikachu
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLEZiAg2bYC7lGgskGuhNW4xicRfk-QDJ4
+# camodo gaming - scrap mechanics
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyNEVsJzeAxDcqUz7llVQdK
+
+# beautiful OB
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHGmVWPh9PfuQYWCLGMTCtD0
+
+# scrap man - trailmakers
+youtube-dl --no-check-certificate -o '/home/pi/videos/Shared Videos/Youtubers/scrapman/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgp2qrCaaHCTjAmW-vC_IO5T
