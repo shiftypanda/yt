@@ -14,3 +14,9 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 
 # beautiful ob - Stormworks
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
+
+# scrap man = challenge mode
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/scrapman/%(playlist)s/%(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgrgyVo5JqTlb_z_OaSzYf0w
+
+# mumbo_jumbo - Hermicraft season 6
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
