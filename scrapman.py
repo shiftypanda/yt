@@ -38,3 +38,10 @@ youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(
 
 # Scrapman trailmakers - starting with jellyfish starting at episode 30 to 42
 youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-items 1-14 https://www.youtube.com/playlist?list=PLjtiR7dM6Lgp2qrCaaHCTjAmW-vC_IO5T
+
+
+# scrapman - scrap mechanic challenge builds
+https://www.youtube.com/playlist?list=PLjtiR7dM6LgrgyVo5JqTlb_z_OaSzYf0w
+
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-items 1-14 https://www.youtube.com/playlist?list=PLjtiR7dM6LgrgyVo5JqTlb_z_OaSzYf0w
+
