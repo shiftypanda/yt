@@ -3,3 +3,7 @@ DS_Store
 __pyc__
 *.pyc
 .DS_Store
+*.sh.un~
+*.py~
+*.py.un~
+*.sh~
