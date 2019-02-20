@@ -7,3 +7,4 @@ __pyc__
 *.py~
 *.py.un~
 *.sh~
+.vscode
