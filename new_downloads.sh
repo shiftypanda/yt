@@ -10,10 +10,10 @@ cd /home/pi/videos/Shared\ Videos/Youtubers
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
 # z1 gaming - astroneer 1.0 full release
-youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnnXurqd50LtCLKgyOlLn_T
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnnXurqd50LtCLKgyOlLn_T
 
 # frantic_matt - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o '/home/pi/videos/Shared Videos/Youtubers/frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
+youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o '/home/pi/videos/Shared Videos/Youtubers/frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
 # spycakes - Stormworks
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/spycakes/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLVOfKuEH7nbM1XJWqpBNSh3hFVeHtOft_
