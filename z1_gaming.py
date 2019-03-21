@@ -1,4 +1,4 @@
-# Astroneers
+#Astroneers
 Terror tek season 3
 
 https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm1cZKAl9GyiLSw2pK8wsXM
@@ -8,6 +8,9 @@ https://www.youtube.com/playlist?list=PL8Hr8BU6bPOlJp_37y0-CCCpsumTKgYLC
 
 Season 1
 https://www.youtube.com/playlist?list=PL8Hr8BU6bPOkwViTPGK6CMqz-irUmo0cF
+
+Astroneer Full release 1.0
+https://www.youtube.com/watch?v=Bs36a9-2zhQ&list=PL8Hr8BU6bPOnnXurqd50LtCLKgyOlLn_T
 
 astroneer 10
 https://www.youtube.com/watch?v=MA3yDY_r2CA&list=PL8Hr8BU6bPOm_dNQCxgZuL4sBAnYI44se

@@ -9,6 +9,9 @@ cd /home/pi/videos/Shared\ Videos/Youtubers
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
+# z1 gaming - astroneer 1.0 full release
+youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnnXurqd50LtCLKgyOlLn_T
+
 # frantic_matt - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o '/home/pi/videos/Shared Videos/Youtubers/frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
