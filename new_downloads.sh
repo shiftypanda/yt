@@ -32,3 +32,9 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 
 # Blender introduction tutorial 
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/blender_tutorials/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1
+
+# Amylee race to the moon
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/amylee33/minecraft/%(playlist)s/%(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLrzK3MizkCX3I3C4vcBTPA94MZ_nFcaPl
+
+# Ashdubh race to the moon
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/ashdubh/minecraft/%(playlist)s/%(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLoY4yKezjHZRU7D3RkRtgzxkfOro495IQ
