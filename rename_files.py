@@ -14,12 +14,16 @@
 import shutil, os, re
 
 # set global variable for working directory
-DIRECTORY_TO_INDEX = "/Volumes/Public/Shared Videos/YouTubers/scrapman/scrap mechanics/Scrap Mechanic Multiplayer"
+DIRECTORY_TO_INDEX = "/Users/tim/coding/videoscrapers/youtube-dl/Minecraft - RACE TO THE MOON"
 
 # create a regex that matches filename pattersn wtih file_index and episode_number
 
 file_index_find = re.compile(r"""^(.*?)
-    (\d?\d?\d?)\s-\s(.*?)Ep(\-?\s?\d\d\d?)(.*?)$
+    (\d?\d?\d?)
+    \s-\s
+    (.*?)
+    \[(\d\d?\d?)\]
+    (.*?)$
     """, re.VERBOSE)
 # Loop over the files in the working directory.
 
@@ -28,6 +32,7 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
 
    # Skip files without episode details.
     if ep == None:
+        print("File oes not match search pattern")
         continue
    # Get the different parts of the filename.
     before_part = ep.group(1)
@@ -54,9 +59,9 @@ for episode in os.listdir(DIRECTORY_TO_INDEX):
     # if non matchin filename then generate correct name and run throughu loop
     elif file_index != episode_number:
         correct_index = episode_number
-        if int(correct_index) < 10:
-            correct_index = correct_index
-        correct_index_name = before_part + correct_index + ' - ' + middle_part + 'EP-' + episode_number + end_part
+        #if int(correct_index) < 10:
+         #   correct_index = correct_index
+        correct_index_name = middle_part + 'episode - ' + episode_number + end_part
         # Get the full, absolute file paths.
         absWorkingDir = os.path.abspath(DIRECTORY_TO_INDEX)
         episode = os.path.join(absWorkingDir, episode)
