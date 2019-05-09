@@ -9,6 +9,9 @@ https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
 
 youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn5Re6xOkiH3-0cOVvqmxZnt
 
+# time travellers
+https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
+
 
 # scrap mechanics - personal playlist
 PUwWycdr4RE&list=PL0hoUWUYryn4bHIjixxXc51O5qozhJX90
