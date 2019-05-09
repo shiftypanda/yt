@@ -12,6 +12,9 @@ cd /home/pi/videos/Shared\ Videos/Youtubers
 # z1 gaming - astroneer 1.0 full release
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnnXurqd50LtCLKgyOlLn_T
 
+# iballisticsquid - time travellers
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/iballisticsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
+
 # frantic_matt - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o '/home/pi/videos/Shared Videos/Youtubers/frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
@@ -33,7 +36,7 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 # sqaishey quack - twins - with stampycat
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/sqaishey_quack/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLa3XidtLkKrczqZdY4sDKXw8cyBoJ4BOT
 
-# Blender introduction tutorial 
+# Blender introduction tutorial
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/blender_tutorials/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1
 
 # Amylee race to the moon

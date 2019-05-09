@@ -11,6 +11,7 @@ youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(
 
 # time travellers
 https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/iballisticsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
 
 
 # scrap mechanics - personal playlist
