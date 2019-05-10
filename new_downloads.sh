@@ -29,8 +29,9 @@ youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtub
 
 # mumbo_jumbo - Hermicraft season 6
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 26 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 27 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
 youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 37 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 101 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
 
 
 # sqaishey quack - twins - with stampycat
