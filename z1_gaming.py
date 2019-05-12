@@ -31,7 +31,8 @@ https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnIcr14MHX5_tuviV7MyuZT
 youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOmLlNoEFP5OIJXTTLA4fWhl
 
 
-
+# astroneer fulll release season 2
+youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
 
 
 youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
