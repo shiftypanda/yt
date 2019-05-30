@@ -13,11 +13,13 @@ cd /home/pi/videos/Youtubers
 
 
 # scrap man - satisfactory (factory building game)
-youtube-dl --no-check-certificate -f 18 -o 'scrapman/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgqMBzTaBjuH3aQvExPONF0z
+youtube-dl --no-check-certificate -f 18 -o 'scrapman/satisfactory/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgqMBzTaBjuH3aQvExPONF0z
 
+# z1gaming - satisfcatory (factory building game)
+youtube-dl --no-check-certificate -f 18 -o 'z1gaming/satisfactory/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnCKEtnnJjit2p2Yv1UeORC
 
 # scrap man - trailmakers
-youtube-dl --no-check-certificate -f 18 -o 'scrapman/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
+youtube-dl --no-check-certificate -f 18 -o 'scrapman/trailmakers/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
 
 
 
