@@ -21,7 +21,7 @@ youtube-dl --no-check-certificate -f 18 -o 'iballisticsquid/minecraft/%(playlist
 youtube-dl --no-check-certificate -f 18 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHHkeMU9xoS7Uol28QbXM0Y0&index=2&t=0s
 
 # frantic_matt - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
+youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
 # spycakes - Stormworks
 youtube-dl --no-check-certificate -f 18 -o 'spycakes/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLVOfKuEH7nbM1XJWqpBNSh3hFVeHtOft_

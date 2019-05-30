@@ -21,6 +21,8 @@ youtube-dl --no-check-certificate -f 18 -o 'z1gaming/satisfactory/%(playlist)s/%
 # scrap man - trailmakers
 youtube-dl --no-check-certificate -f 18 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
 
+# frantic_matt - stormworks
+youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
 
 
