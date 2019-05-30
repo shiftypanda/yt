@@ -1,53 +1,53 @@
+#!/bin/bash
+
 # activate python 3.7 virtual env
 # shell script to search and update
 #
 source /home/pi/coding/videoscrapers/virtualenv/bin/activate
 
 # change directory to shared videos for youtubers
-cd /home/pi/videos/Shared\ Videos/Youtubers
+cd /home/pi/videos/Youtubers
 
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
 # z1 gaming - astroneer 1.0 full release season 2
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
+youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
 
 # iballisticsquid - time travellers
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/iballisticsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
+youtube-dl --no-check-certificate -f 18 -o 'iballisticsquid/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLb9EH-eCKnDla6sJOBh1uLIp8G6u1NOHc
 
 # beautiful ob - jalopy
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHHkeMU9xoS7Uol28QbXM0Y0&index=2&t=0s
+youtube-dl --no-check-certificate -f 18 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHHkeMU9xoS7Uol28QbXM0Y0&index=2&t=0s
 
 # frantic_matt - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o '/home/pi/videos/Shared Videos/Youtubers/frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
+youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(playlist)s/%(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
 # spycakes - Stormworks
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/spycakes/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLVOfKuEH7nbM1XJWqpBNSh3hFVeHtOft_
+youtube-dl --no-check-certificate -f 18 -o 'spycakes/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLVOfKuEH7nbM1XJWqpBNSh3hFVeHtOft_
 
 # beautiful ob - Stormworks
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
+youtube-dl --no-check-certificate -f 18 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
 
 # scrap man = challenge mode
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/scrapman/%(playlist)s/%(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgrgyVo5JqTlb_z_OaSzYf0w
-
-# mumbo_jumbo - Hermicraft season 6
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 27 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 37 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/mumbo_jumbo/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 101 https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
+youtube-dl --no-check-certificate -f 18 -o 'scrapman/%(playlist)s/%(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgrgyVo5JqTlb_z_OaSzYf0w
 
 
-# sqaishey quack - twins - with stampycat
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/sqaishey_quack/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLa3XidtLkKrczqZdY4sDKXw8cyBoJ4BOT
 
-# Blender introduction tutorial
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/blender_tutorials/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLa1F2ddGya_8V90Kd5eC5PeBjySbXWGK1
 
-# Amylee race to the moon
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/amy_lee_33/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLrzK3MizkCX3I3C4vcBTPA94MZ_nFcaPl
 
-# Ashdubh race to the moon
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/ashdubh/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLoY4yKezjHZRU7D3RkRtgzxkfOro495IQ
 
-# popular mmos
-youtube-dl --no-check-certificate -f 18 -o '/home/pi/videos/Shared Videos/Youtubers/popularmmos/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PL6p1NYDZ87wL6W-AFgxuJ0Cojl7xg1TaM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
