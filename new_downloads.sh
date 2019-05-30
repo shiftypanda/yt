@@ -19,7 +19,7 @@ youtube-dl --no-check-certificate -f 18 -o 'scrapman/satisfactory/%(playlist)s/%
 youtube-dl --no-check-certificate -f 18 -o 'z1gaming/satisfactory/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnCKEtnnJjit2p2Yv1UeORC
 
 # scrap man - trailmakers
-youtube-dl --no-check-certificate -f 18 -o 'scrapman/trailmakers/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
+youtube-dl --no-check-certificate -f 18 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
 
 
 
