@@ -6,7 +6,7 @@
 source /home/pi/coding/videoscrapers/virtualenv/bin/activate
 
 # change directory to shared videos for youtubers
-cd /home/pi/videos/Youtubers
+cd /home/pi/videos/YouTubers
 
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
