@@ -10,10 +10,10 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
 # Camodo gaming - brick rigs - biiig playlist
-youtube-dl --no-check-certificate -f 18 --playlist-start 388  -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
 
 # camodo gaming - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 236 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
 
 # z1 gaming - astroneer 1.0 full release season 2
 youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
