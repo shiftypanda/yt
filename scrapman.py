@@ -28,7 +28,7 @@ youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(
 
 # Scrapman stormworks playlist
 # https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
-youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
+youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' --playlist-start 1 https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
 
 
 
