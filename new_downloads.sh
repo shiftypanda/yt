@@ -24,6 +24,9 @@ youtube-dl --no-check-certificate -f 18 -o 'scrapman/trailmakers/%(playlist)s/%(
 # frantic_matt - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
+# scrap man - raft
+youtube-dl --no-check-certificate -f 18 -o 'scrapman/raft/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgrpbz_0iDHZbH22Cs01Y8K2
+
 
 
 
