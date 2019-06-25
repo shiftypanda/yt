@@ -42,3 +42,6 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 68 -o 'frantic_matt/%(p
 
 # kan gaming - scrap mechanic
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/scrap_mechanic/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d6H802FAldqw5BbDQarsqRf
+
+# kan gaming - stationeers
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/scrap_mechanic/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d72IiG_x_-BJkotyINOS7uo
