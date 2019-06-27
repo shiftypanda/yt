@@ -45,3 +45,6 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/scrap_
 
 # kan gaming - stationeers
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/stationeers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d72IiG_x_-BJkotyINOS7uo
+
+# iballistic squid - syndicate server
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/minecraft/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn7cSA6gca9OwfRUXBe5Gonu
