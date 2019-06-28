@@ -48,3 +48,6 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/statio
 
 # iballistic squid - syndicate server
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/minecraft/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn7cSA6gca9OwfRUXBe5Gonu
+
+# kan gaming - stormworks
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d5pek8iPQGonyjddNcg5OLS
