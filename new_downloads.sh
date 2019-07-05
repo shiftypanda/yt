@@ -27,6 +27,8 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 180 -o 'frantic_matt/%(
 # scrap man - raft
 youtube-dl --no-check-certificate -f 18 -o 'scrapman/raft/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgrpbz_0iDHZbH22Cs01Y8K2
 
+# tutorial data science
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL0hoUWUYryn5VTtt-Ni-gy9lSQrP0oES
 
 
 
