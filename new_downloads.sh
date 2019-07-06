@@ -30,10 +30,20 @@ youtube-dl --no-check-certificate -f 18 -o 'scrapman/raft/%(playlist)s/%(upload_
 # tutorial data science
 youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL0hoUWUYryn5VTtt-Ni-gy9lSQrP0oES_
 
+# py data week 5
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL0hoUWUYryn5--ikf4hEi2NAOcgpOJZzn
 
+# py data week 6
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6bt9C3RF4-v6rO5HbQzTcc 
 
+# py data week 7
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4E11inimqIv40COpVa9lWK
 
+# py data week 8
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6Jqkm6iptauak64ZfIVCRY
 
+# py data week 9
+youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4ZJVLOajlFpOgmvtlZ-Uy0
 
 
 
