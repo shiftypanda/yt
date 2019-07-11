@@ -51,3 +51,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/m
 
 # kan gaming - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d5pek8iPQGonyjddNcg5OLS
+
+# mumbo jumbo - hermitcraft
+youtube-dl --no-check-certificate -f 18 --playlist-start 26  -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
+
