@@ -46,8 +46,5 @@ youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/
 youtube-dl --no-check-certificate -f 18 -o 'tutorials/data_science/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4ZJVLOajlFpOgmvtlZ-Uy0
 
 
-
-
-
-
-
+# nintendo switch games
+youtube-dl --no-check-certificate -f 18 -o 'nintendo_switch/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6mg6QqxqI1dyTE_MM4vZID
