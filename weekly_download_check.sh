@@ -29,19 +29,19 @@ youtube-dl --no-check-certificate -f 18 -o 'spycakes/%(playlist)s/%(playlist_ind
 youtube-dl --no-check-certificate -f 18 --playlist-start 2 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
 
 # scrap man - scrap mechanics
-youtube-dl --no-check-certificate -f 18 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
 # popular mmos minecraft mods
-youtube-dl --no-check-certificate -f 18 -o 'popularmmos/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL6p1NYDZ87wKTp2iIS0s7BUobisFVzrmW
+youtube-dl --no-check-certificate -f 18 --playlist-start 400 -o 'popularmmos/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL6p1NYDZ87wKTp2iIS0s7BUobisFVzrmW
 
 # scrap man - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
 
 # frantic matt - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
 
 # kan gaming - scrap mechanic
-youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/scrap_mechanic/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d6H802FAldqw5BbDQarsqRf
+youtube-dl --no-check-certificate -f 18 --playlist-start 401 -o 'kan_gaming/scrap_mechanic/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d6H802FAldqw5BbDQarsqRf
 
 # kan gaming - stationeers
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'kan_gaming/stationeers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d72IiG_x_-BJkotyINOS7uo
