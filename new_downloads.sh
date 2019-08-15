@@ -48,3 +48,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 500 -o 'frantic_matt/%(
 
 # nintendo switch games
 youtube-dl --no-check-certificate -f 18 -o 'nintendo_switch/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6mg6QqxqI1dyTE_MM4vZID
+
+# stampylonghead - mario kart 8
+youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL09_SgAjPQBTLp-2aTksn1dSUS_68LNcJ
+
