@@ -16,10 +16,13 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 478 -o 'camodo gaming/%
 youtube-dl --no-check-certificate -f 18 --playlist-start 257 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
 
 # z1 gaming - astroneer 1.0 full release season 2
-youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
+# youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
 
 # z1 gaming - astroneer summer update
-youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOlRdrzQiZrLlssm8yVr6IZy
+# youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOlRdrzQiZrLlssm8yVr6IZy
+
+# z1 gaming - atroneer exploration update
+youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnRNzZCkBzQzzPvx6AD-zqb
 
 
 # spycakes - Stormworks
