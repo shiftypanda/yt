@@ -19,7 +19,7 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o 'z1gaming/satisfactory/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnCKEtnnJjit2p2Yv1UeORC
 
 # scrap man - trailmakers
-youtube-dl --no-check-certificate -f 18 --playlist-items 1-30 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
+# youtube-dl --no-check-certificate -f 18 --playlist-items 1-30 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
 
 # frantic_matt - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 500 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
@@ -47,10 +47,10 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 500 -o 'frantic_matt/%(
 
 
 # nintendo switch games
-youtube-dl --no-check-certificate -f 18 -o 'nintendo_switch/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6mg6QqxqI1dyTE_MM4vZID
+# youtube-dl --no-check-certificate -f 18 -o 'nintendo_switch/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6mg6QqxqI1dyTE_MM4vZID
 
 # stampylonghead - mario kart 8
-youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL09_SgAjPQBTLp-2aTksn1dSUS_68LNcJ
+# youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL09_SgAjPQBTLp-2aTksn1dSUS_68LNcJ
 
 # camodo gaming - minecraft
-youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
+# youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
