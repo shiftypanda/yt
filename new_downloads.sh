@@ -56,4 +56,8 @@ youtube-dl --no-check-certificate -f 18 -o 'scrapman/cosmoteer/%(playlist)s/%(pl
 # youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL09_SgAjPQBTLp-2aTksn1dSUS_68LNcJ
 
 # camodo gaming - minecraft
+
 #youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
+
+
+
