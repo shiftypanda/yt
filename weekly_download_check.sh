@@ -10,19 +10,17 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
 # Camodo gaming - brick rigs - biiig playlist
-youtube-dl --no-check-certificate -f 18 --playlist-start 478 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
+youtube-dl --no-check-certificate -f 18 --playlist-start 574 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
 
 # camodo gaming - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 257 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
+youtube-dl --no-check-certificate -f 18 --playlist-start 310 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
 
-# z1 gaming - astroneer 1.0 full release season 2
-# youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOn2l8QZ6hwzEj0yXIjcjVpB
 
-# z1 gaming - astroneer summer update
-# youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOlRdrzQiZrLlssm8yVr6IZy
 
-# z1 gaming - atroneer exploration update
-youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnRNzZCkBzQzzPvx6AD-zqb
+# z1 gaming - atroneer 2020
+youtube-dl --no-check-certificate -f 18 -o 'z1gaming/astroneer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOkYNKP0grtCoFME7zlJ4nnd&pbjreload=10
+
+# z1 gaming - astroneer 2020
 
 
 # spycakes - Stormworks
@@ -34,8 +32,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 2 -o 'beautiful_ob/%(pl
 # scrap man - scrap mechanics
 youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
-# popular mmos minecraft mods
-# youtube-dl --no-check-certificate -f 18 --playlist-start 400 -o 'popularmmos/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL6p1NYDZ87wKTp2iIS0s7BUobisFVzrmW
+
 
 # scrap man - stormworks
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
