@@ -11,8 +11,18 @@ cd /home/pi/videos/YouTubers
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
 
+# pe with joe week 1
+youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvQafyve889qVcPxYEjdSTl
+
+
+# cressida cowell - how to train your dragon
+
+
+# youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxfoJvqBzIlGLTypOm-cy8Tu
+
 # scrap man - cosmoteer
-youtube-dl --no-check-certificate -f 18 -o 'scrapman/cosmoteer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgraXQf3whUdRTbvRv95vYuq
+
+# youtube-dl --no-check-certificate -f 18 -o 'scrapman/cosmoteer/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgraXQf3whUdRTbvRv95vYuq
 
 
 # scrap man - satisfactory (factory building game)
