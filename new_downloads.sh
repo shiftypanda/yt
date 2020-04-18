@@ -10,9 +10,14 @@ cd /home/pi/videos/YouTubers
 
 # example for Download good general quality -- DEFAULT
 # youtube-dl --no-check-certificate -f 18 -o '%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL8Hr8BU6bPOm0_Uhihi9GRTmtBt-npEk3
+# jo pe week 2
+
+youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvD7ogmmPLJXYA1q0gFF3pe
+
 
 # pe with joe week 1
-youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvQafyve889qVcPxYEjdSTl
+
+# youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvQafyve889qVcPxYEjdSTl
 
 
 # cressida cowell - how to train your dragon
@@ -67,7 +72,7 @@ youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_da
 
 # camodo gaming - minecraft
 
-#youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
+youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
 
 
 
