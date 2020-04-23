@@ -13,7 +13,7 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 --playlist-start 574 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
 
 # camodo gaming - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 373 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
+youtube-dl --no-check-certificate -f 18 --playlist-start 414 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
 
 
 
