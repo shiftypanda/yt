@@ -30,7 +30,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 414 -o 'camodo gaming/%
 #youtube-dl --no-check-certificate -f 18 --playlist-start 2 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
 
 # scrap man - scrap mechanics
-# youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-80 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
 
 

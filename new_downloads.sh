@@ -20,7 +20,7 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvQafyve889qVcPxYEjdSTl
 
 # SuppoRRT seminars
-youtube-dl --no-check-certificate -f 18 -o 'supportt/covid19/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLrVQaAxyJE3fekMXNGV_jS4HhSkxNpCi_
+youtube-dl --no-check-certificate -f 18 --playlist-start 12 -o 'supportt/covid19/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLrVQaAxyJE3fekMXNGV_jS4HhSkxNpCi_
 
 # cressida cowell - how to train your dragon
 
