@@ -38,6 +38,10 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/scrap_me
 # iballistic squid - scrap mechanics survival
 youtube-dl --no-check-certificate -f 18 -o 'iballisticsquid/scrap mechanic/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6lZl1BilQaL29E3L5cfXsK
 
+# stampy - animal crossing live streams
+youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/animal_crossing/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn5bmEarMzicBvEk-8BaiXk8
+
+
 # scrap man - stormworks
 # youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
 
