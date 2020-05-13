@@ -27,12 +27,16 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 414 -o 'camodo gaming/%
 #youtube-dl --no-check-certificate -f 18 -o 'spycakes/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLVOfKuEH7nbM1XJWqpBNSh3hFVeHtOft_
 
 # beautiful ob - Stormworks
-#youtube-dl --no-check-certificate -f 18 --playlist-start 2 -o 'beautiful_ob/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
+# youtube-dl --no-check-certificate -f 18 --playlist-start 2 -o 'beautiful_ob/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL3iIaXpPwSHFTNsMoItIGzdFA7y4GjD42
 
 # scrap man - scrap mechanics
-youtube-dl --no-check-certificate -f 18 --playlist-items 1-80 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
+# youtube-dl --no-check-certificate -f 18 --playlist-items 1-10 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
+# scrap man - scrap mechanics survival
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpI9BkWeWsnhxT070_Y92QQ
 
+# iballistic squid - scrap mechanics survival
+youtube-dl --no-check-certificate -f 18 -o 'iballisticsquid/scrap mechanic/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn6lZl1BilQaL29E3L5cfXsK
 
 # scrap man - stormworks
 # youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
