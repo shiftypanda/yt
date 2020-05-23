@@ -50,6 +50,9 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'camodo gaming/%(p
 # stampy - spaceden
 youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'stampy_cat/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLEZiAg2bYC7kxNg5rwfcH8RQbsBkBxi__
 
+# stampy minecraft dungeons
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'stampy_cat/minecraft_dungeons/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4Pu5woI3dH7KQmVL6v_-NZ 
+
 # scrap man - stormworks
 # youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'scrapman/stormworks/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpTxR6InOOL6zrrbpz91FMm
 
