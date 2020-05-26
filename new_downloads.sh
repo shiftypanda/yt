@@ -26,12 +26,14 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxfoJvqBzIlGLTypOm-cy8Tu
 
 # cressida cowell how to train tour dragon book 2
-youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxf7Nt0W5n43Emj3vNsQkQzo
+# youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxf7Nt0W5n43Emj3vNsQkQzo
 
 
 # cressida cowall how tk teain dragon book 3
 youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxdZU5PY1xm7jafiTnlwvUFb
 
+# stampy - human fall flat
+# youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/human_fall_flat/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/watch?v=2_eDNKosbIY
 
 
 # scrap man - cosmoteer
@@ -78,6 +80,7 @@ youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s
 
 # stampylonghead - mario kart 8
 # youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL09_SgAjPQBTLp-2aTksn1dSUS_68LNcJ
+
 
 # stampy aiper mario maker 1
 
