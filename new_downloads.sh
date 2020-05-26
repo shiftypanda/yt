@@ -20,12 +20,18 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o 'pe_with_joe/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLyCLoPd4VxBvQafyve889qVcPxYEjdSTl
 
 # SuppoRRT seminars
-youtube-dl --no-check-certificate -f 18 --playlist-start 12 -o 'supportt/covid19/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLrVQaAxyJE3fekMXNGV_jS4HhSkxNpCi_
+# youtube-dl --no-check-certificate -f 18 --playlist-start 12 -o 'supportt/covid19/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLrVQaAxyJE3fekMXNGV_jS4HhSkxNpCi_
 
 # cressida cowell - how to train your dragon
+# youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxfoJvqBzIlGLTypOm-cy8Tu
+
+# cressida cowell how to train tour dragon book 2
+youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxf7Nt0W5n43Emj3vNsQkQzo
 
 
-youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxfoJvqBzIlGLTypOm-cy8Tu
+# cressida cowall how tk teain dragon book 3
+youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxdZU5PY1xm7jafiTnlwvUFb
+
 
 
 # scrap man - cosmoteer
@@ -75,7 +81,7 @@ youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s
 
 # stampy aiper mario maker 1
 
-youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLsDedIMHtgpPpmt6y_YxzNDDkiqIqgTs5
+# youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLsDedIMHtgpPpmt6y_YxzNDDkiqIqgTs5
 # camodo gaming - minecraft
 
 # youtube-dl --no-check-certificate -f 18 -o 'camodo gaming/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyQ_hXOziaSFgwIxdY8anuN
