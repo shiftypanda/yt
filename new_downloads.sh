@@ -30,11 +30,14 @@ cd /home/pi/videos/YouTubers
 
 
 # cressida cowall how tk teain dragon book 3
-youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxdZU5PY1xm7jafiTnlwvUFb
+# youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxdZU5PY1xm7jafiTnlwvUFb
+
+# cressida cowall how to teain dragon book 4
+youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxco-9Xg0NcL82wBl1jL20QG
+
 
 # stampy - human fall flat
-# youtube-dl --no-check-certificate -f 18 -o 'stampy_cat/human_fall_flat/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/watch?v=2_eDNKosbIY
-
+youtube-dl --no-check-certificate -f 18 --playlist-start 6 -o 'stampy_cat/human_fall_flat/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn46LAN4qRu3Ca2RTE3GIukD
 
 # scrap man - cosmoteer
 
@@ -48,7 +51,12 @@ youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s
 # youtube-dl --no-check-certificate -f 18 -o 'z1gaming/satisfactory/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PL8Hr8BU6bPOnCKEtnnJjit2p2Yv1UeORC
 
 # scrap man - trailmakers
-# youtube-dl --no-check-certificate -f 18 --playlist-items 1-30 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-30 -o 'scrapman/trailmakers/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6LgpGi51BmlxgcnLFsmlVo6I5
+
+# amylee 33 - attack of the b team
+youtube-dl --no-check-certificate -f 18 -o 'amy_lee_33/minecraft/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/watch?v=E_uOfBF4kK4&list=PLrzK3MizkCX2E0hJkqdf_3kcxj6kOAYit
+
+
 
 # frantic_matt - stormworks
 # youtube-dl --no-check-certificate -f 18 --playlist-start 500 -o 'frantic_matt/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLaeOtLvtDiQl1BwPMGRAD6sdaSi0jUYsF
