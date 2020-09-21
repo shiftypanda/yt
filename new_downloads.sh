@@ -33,11 +33,11 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxdZU5PY1xm7jafiTnlwvUFb
 
 # cressida cowall how to teain dragon book 4
-youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxco-9Xg0NcL82wBl1jL20QG
+# youtube-dl --no-check-certificate -f 18 -o 'cressida_cowell/dragons/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLBHPLU9xAmxco-9Xg0NcL82wBl1jL20QG
 
 
 # stampy - human fall flat
-youtube-dl --no-check-certificate -f 18 --playlist-start 6 -o 'stampy_cat/human_fall_flat/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn46LAN4qRu3Ca2RTE3GIukD
+# youtube-dl --no-check-certificate -f 18 --playlist-start 6 -o 'stampy_cat/human_fall_flat/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn46LAN4qRu3Ca2RTE3GIukD
 
 # scrap man - cosmoteer
 
