@@ -13,7 +13,7 @@ cd /home/pi/videos/YouTubers
 # youtube-dl --no-check-certificate -f 18 --playlist-start 574 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyuczO-UBOAbbgaNTvdKe8t8zw
 
 # camodo gaming - stormworks
-youtube-dl --no-check-certificate -f 18 --playlist-start 458 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
+youtube-dl --no-check-certificate -f 18 --playlist-start 468 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucy8yGaIx77x32jWnc-yuf8z
 
 
 
@@ -36,7 +36,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 458 -o 'camodo gaming/%
 
 
 # scrap man - scrap mechanics survival
-youtube-dl --no-check-certificate -f 18 --playlist-start 72 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpI9BkWeWsnhxT070_Y92QQ
+youtube-dl --no-check-certificate -f 18 --playlist-start 78 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpI9BkWeWsnhxT070_Y92QQ
 
 # kan gaming - scrap mechanics survival
 youtube-dl --no-check-certificate -f 18 --playlist-start 40 -o 'kan_gaming/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d7bW34hwgtvmXfMMYrlQyqq
@@ -55,7 +55,7 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 23 -o 'stampy_cat/anima
 youtube-dl --no-check-certificate -f 18 --playlist-start 26 -o 'camodo gaming/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLN_hC9GPyucyMzKEGFKwjJcyA9wlWVvRW
 
 # stampy - spaceden
-youtube-dl --no-check-certificate -f 18 --playlist-start 53 -o 'stampy_cat/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLEZiAg2bYC7kxNg5rwfcH8RQbsBkBxi__
+youtube-dl --no-check-certificate -f 18 --playlist-start 56 -o 'stampy_cat/minecraft/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLEZiAg2bYC7kxNg5rwfcH8RQbsBkBxi__
 
 # stampy minecraft dungeons
 # youtube-dl --no-check-certificate -f 18 --playlist-start 4 -o 'stampy_cat/minecraft_dungeons/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn4Pu5woI3dH7KQmVL6v_-NZ 
@@ -84,4 +84,4 @@ youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'frantic_matt/%
 # youtube-dl --no-check-certificate -f 18 --playlist-start 134 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
 
 # mumbo jumbo - hermitcraft season 7
-youtube-dl --no-check-certificate -f 18 --playlist-start 54 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4eFO89sYmMDVghvH0m2wUmc
+youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4eFO89sYmMDVghvH0m2wUmc
