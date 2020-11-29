@@ -33,6 +33,8 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 468 -o 'camodo gaming/%
 # scrap man - scrap mechanics
 # youtube-dl --no-check-certificate -f 18 --playlist-items 1-10 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
+# scrap man - scrap mechanic workshop hunters
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-53 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
 
 # scrap man - scrap mechanics survival
