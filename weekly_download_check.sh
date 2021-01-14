@@ -85,5 +85,9 @@ youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'frantic_matt/%
 # mumbo jumbo - hermitcraft
 # youtube-dl --no-check-certificate -f 18 --playlist-start 134 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
 
-# mumbo jumbo - hermitcraft season 7
+# mumbo jumbo - hermitcraft season 
 youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4eFO89sYmMDVghvH0m2wUmc
+
+
+# sea of thieves iballisticsquid
+youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn7UylEMNvobBPqWeFM0udiT
