@@ -34,11 +34,11 @@ youtube-dl --no-check-certificate -f 18 --playlist-start 468 -o 'camodo gaming/%
 # youtube-dl --no-check-certificate -f 18 --playlist-items 1-10 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s'  https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
 # scrap man - scrap mechanic workshop hunters
-youtube-dl --no-check-certificate -f 18 --playlist-items 1-53 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
+youtube-dl --no-check-certificate -f 18 --playlist-items 1-25 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6Lgo2oINNGBVQ8UMT6k3dM9df
 
 
 # scrap man - scrap mechanics survival
-youtube-dl --no-check-certificate -f 18 --playlist-start 78 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpI9BkWeWsnhxT070_Y92QQ
+youtube-dl --no-check-certificate -f 18 --playlist-start 80 -o 'scrapman/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLjtiR7dM6LgpI9BkWeWsnhxT070_Y92QQ
 
 # kan gaming - scrap mechanics survival
 youtube-dl --no-check-certificate -f 18 --playlist-start 40 -o 'kan_gaming/scrap_mechanics/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLAYl0rkyP6d7bW34hwgtvmXfMMYrlQyqq
@@ -86,8 +86,8 @@ youtube-dl --no-check-certificate -f 18 --playlist-items 1-20 -o 'frantic_matt/%
 # youtube-dl --no-check-certificate -f 18 --playlist-start 134 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4fcZddqsijPEignAza8nF74
 
 # mumbo jumbo - hermitcraft season 
-youtube-dl --no-check-certificate -f 18 --playlist-start 60 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4eFO89sYmMDVghvH0m2wUmc
+youtube-dl --no-check-certificate -f 18 --playlist-start 90 -o 'mumbo_jumbo/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PLFm1tTY1NA4eFO89sYmMDVghvH0m2wUmc
 
 
 # sea of thieves iballisticsquid
-youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn7UylEMNvobBPqWeFM0udiT
+# youtube-dl --no-check-certificate -f 18 --playlist-start 1 -o 'iballisticsquid/%(playlist)s/%(upload_date)s - %(title)s.%(ext)s' https://www.youtube.com/playlist?list=PL0hoUWUYryn7UylEMNvobBPqWeFM0udiT
